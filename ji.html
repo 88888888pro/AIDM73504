@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大美重庆</title>
+<link rel="stylesheet" href="css/bootsrap.css">
+    <style>
+        .object-cover{
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .carousel-inner img{
+            height: 33vh;
+            object-fit: cover;
+        }
+        @media (max-width: 992px) {
+            .carousel-inner img{
+                height: 33vh;
+                object-fit: cover;
+            }
+        }
+        .text-left-indent {
+            text-align: left;
+            text-indent: 2em;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 导航栏 -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">大美重庆</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+            <li class="nav-item"><a class="nav-link" href="food.html">美食</a></li>
+            <li class="nav-item"><a class="nav-link" href="view.html">美景</a></li>
+            <li class="nav-item"><a class="nav-link" href="ji.html">游记</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html">登录</a></li>
+            <li class="nav-item"><a class="nav-link" href="register.html">注册</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">联系我们</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- 轮播图 -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- 指示器 -->
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+
+    <!-- 图片内容 -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="images/banner1.jpg" alt="重庆夜景1">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/banner2.jpg" alt="重庆夜景2">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/banner3.jpg" alt="重庆夜景3">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="images/banner4.jpg" alt="重庆夜景4">
+        </div>
+    </div>
+
+    <!-- 前后导航键 -->
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">上一张</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">下一张</span>
+    </a>
+
+</div>
+
+<div class="container mt-4">
+<!-- 标题 -->
+<h2 class="text-center mb-4">重庆游记</h2>
+<p class="text-center mb-5">
+    重庆，一座充满魅力与活力的城市，它的独特韵味如同磁石般深深吸引着每一个到访者。它坐落在山水之间，山峦起伏，江水环绕，那错落有致的建筑依山而建，层层叠叠，仿佛是大自然与人类智慧共同谱写的壮丽诗篇。
+
+    漫步在重庆的街头巷尾，你能感受到历史与现代的交融与碰撞。古老的城墙遗址诉说着往昔的辉煌，而拔地而起的高楼大厦则彰显着现代都市的蓬勃发展。这里的人们热情好客，他们豪爽的性格如同重庆火锅一般火辣而直接，让人倍感温暖与亲切。
+
+    说到重庆，不得不提的便是那闻名遐迩的火锅。红亮的汤底在锅中翻滚跳跃，辣椒与花椒的香气弥漫在空气中，刺激着人们的嗅觉神经。夹起一片鲜嫩的毛肚，在锅中上下几下，待其微微卷曲，放入口中，那爽脆的口感与火辣的味道瞬间在舌尖上绽放，令人欲罢不能。除了火锅，重庆还有着众多特色美食等待着人们去探索与发现。酸辣粉，细长的粉条浸泡在酸辣可口的汤汁中，搭配上香脆的花生碎、鲜嫩的豆芽和香菜，一口下去，酸、辣、麻、香在口腔中交织缠绕，让人回味无穷。小面也是重庆人日常生活中不可或缺的一部分，一碗简单的小面，却有着丰富的内涵。筋道的面条，搭配上特制的肉酱、青菜、葱花等调料，看似朴素，却能在清晨唤醒你的味蕾，给予你满满的能量。
+
+    重庆的夜晚更是别有一番风味。洪崖洞在灯光的映照下宛如童话中的城堡，金碧辉煌，如梦如幻。长江索道缓缓滑过江面，脚下是奔腾不息的江水，远处是灯火辉煌的城市夜景，让人仿佛置身于一幅绚丽的画卷之中。
+
+    在重庆的日子里，我不仅品尝到了美味的食物，更领略到了这座城市独特的文化与风情。每一个角落都充满了故事，每一段经历都让人难以忘怀。重庆，就像是一本永远翻不完的书，每一次阅读都会有新的发现与惊喜，它将永远留在我的记忆深处，成为我心中一段美好的回忆。
+</p>
+    <div class="row">
+        <article class="mb-4 col-6 border p-2">
+            <h4>雾都山城 | 我的重庆日记</h4>
+            <p>重庆真的是个适合拍照的地方。哪儿都能拍出很好看的照片来。不过，吸引我的还是这里的生活气息。</p>
+            <a href="#" class="btn btn-danger">查看更多</a>
+        </article>
+        <article class="mb-4 col-6 border p-2">
+            <h4>想要去见火锅之都——“渝”是来了</h4>
+            <p>今年，重庆还没有下雪，就已经有人吃上一顿重庆火锅，和朋友说“再不吃就不快乐了”，朋友说“要不，我们去一趟重庆吧”。就因为这两句话，我们便开启了重庆之旅。</p>
+            <a href="#" class="btn btn-danger">查看更多</a>
+        </article>
+        <article class="mb-4 col-6 border p-2">
+            <h4>重庆自驾游我穿梭在8D打印的迷宫里</h4>
+            <p>今年的重庆行记绝对是我此生难以忘怀的旅行。虽然早就知道重庆是个8D城市，但真正来到这里还是被它给迷倒了。这里的道路错综复杂，就像在一个巨大的迷宫中穿梭，每一个转弯都可能带给你意想不到的惊喜。无论是高楼林立的都市景象，还是隐藏在巷子里的特色小店，都让人流连忘返。</p>
+            <a href="#" class="btn btn-danger">查看更多</a>
+        </article>
+        <article class="mb-4 col-6 border p-2">
+            <h4>环字&华侨城再牵手 重庆欢乐谷夏夜游</h4>
+            <p>夏天到了，又到了夜游赏灯的最佳时节。入夜的城市别有一番风情，有的恬静怡人，有的疯狂热闹。欢乐谷的夏夜更是充满了欢乐的气息，灯光闪烁，游乐设施在夜色中显得更加刺激。游客们在欢声笑语中享受着夏夜的清凉和欢乐，无论是大人还是小孩，都能在这里找到属于自己的乐趣。</p>
+            <a href="#" class="btn btn-danger">查看更多</a>
+        </article>
+    </div>
+</div>
+
+<!-- 页脚 -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
